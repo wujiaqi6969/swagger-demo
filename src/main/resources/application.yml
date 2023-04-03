@@ -1,0 +1,11 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /swagger-demo
+
+spring:
+  application:
+    name: swagger-demo
+  mvc:
+    path match:
+      matching-strategy: ant_path_matcher
