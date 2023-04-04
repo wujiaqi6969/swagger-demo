@@ -39,7 +39,7 @@ public class SwaggerConfig {
                 .groupName("另一个对外开发接口!!!")
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.jiaqi.wu.swaggerDemo.controller"))
-                .paths(PathSelectors.regex("/indexController/.*"))
+                .paths(PathSelectors.regex("/otherController/.*"))
                 .build();
     }
 
