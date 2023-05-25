@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/indexController")
 public class IndexController {
 
-    @GetMapping("index")
+    @GetMapping(value = "index", produces = "application/json")
     @ApiOperation(value = "index首页访问", notes = "index the notes", httpMethod = "GET", response = Result.class)
     public Result<Void> index() {
         return Result.success();

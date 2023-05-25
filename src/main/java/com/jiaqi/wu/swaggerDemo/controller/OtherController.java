@@ -24,6 +24,8 @@ public class OtherController {
 
     /**
      * {@ApiParam} 格式是get请求会会从接口上拿取请求参数
+     * name:是字段名称
+     * value:参数说明
      *
      * @param content
      * @return result
